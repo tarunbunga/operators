@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>logical operators</title>
+</head>
+<body>
+    <h1>logical operators AND (&&)</h1>
+    <script type="text/javascript">
+        document.write("logical operators AND(&&)");//true
+        document.write("<br/>");
+        document.write((3<4)&&(5>4));//true
+        document.write("<br/>");
+        document.write((3>4)&&(5>4));//false
+        document.write("<br/>");
+        document.write((3<4)&&(5<4));//false
+        document.write("<br/>");
+        document.write((3>4)&&(5<4));//false
+        document.write("<br/>");
+    </script>
+    <h1>logical operators OR(||)</h1>
+    <script type="text/javascript">
+        document.write("logical operators OR(||)");//true
+        document.write("<br/>");
+        document.write((3<4)||(5>4));//TRUE
+        document.write("<br/>");
+        document.write((3>4)||(5>4));//TRUE
+        document.write("<br/>");
+        document.write((3<4)||(5<4));//TRUE
+        document.write("<br/>");
+        document.write((3>4)||(5<4));//FALSE
+        document.write("<br/>");
+    </script>
+    <h1>logical operators NOT (!)</h1>
+    <script type="text/javascript">
+        document.write("logical operators NOT(!)");//true
+        document.write("<br/>");
+        document.write(!(5>4));//FALSE
+        document.write("<br/>");
+        document.write((!(3>4)&&(5>4)));//TRUE
+        document.write("<br/>");
+        document.write(!((3<4)||(5<4)));//false
+        document.write("<br/>");
+        document.write(!(3>4));//TRUE
+        document.write("<br/>");
+        document.write(!(false));//TRUE
+        document.write("<br/>");
+    </script>
+    
+</body>
+</html>
